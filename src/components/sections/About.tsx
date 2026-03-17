@@ -7,7 +7,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="border-t border-[var(--border)] py-20 lg:py-28 scroll-mt-20"
+      className="relative border-t border-[var(--border)] py-20 lg:py-28 scroll-mt-20 bg-[image:var(--gradient-about)]"
     >
       <div className="mx-auto max-w-6xl px-5 lg:px-8">
         <div className="grid gap-4 mb-12">

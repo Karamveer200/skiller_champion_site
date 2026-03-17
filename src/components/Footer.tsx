@@ -11,7 +11,7 @@ const footerLinks = [
 
 export function Footer() {
   return (
-    <footer className="border-t border-[var(--border)] py-12 lg:py-16">
+    <footer className="border-t border-[var(--border)] py-12 lg:py-16 bg-[image:var(--gradient-footer)]">
       <div className="mx-auto max-w-6xl px-5 lg:px-8">
         <div className="flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
           <Logo />

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[90vh] flex flex-col justify-center px-5 pt-24 pb-20 lg:px-8 lg:pt-32">
+    <section className="relative min-h-[90vh] flex flex-col justify-center px-5 pt-24 pb-20 lg:px-8 lg:pt-32 bg-[image:var(--gradient-hero)]">
       <div className="mx-auto max-w-6xl w-full">
         <motion.p
           className="font-display text-sm uppercase tracking-[0.2em] text-[var(--accent)] mb-6"
